@@ -1,7 +1,7 @@
 ## Tipe Data
 
 - [Tipe Data Number ](#tipe-data-number)
-- [Tipe Data String ](#tipe-data-number)
+- [Tipe Data String ](#tipe-data-string)
 
 ### Tipe Data Number
 
