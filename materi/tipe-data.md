@@ -15,12 +15,18 @@ Berikut jenis-jenis tipe data integer
 
 <img src="../images/Tipe-data-number-integer.png">
 
-#### 2. Tipe data Float Point
+#### 2. Tipe data Floatng Point
 
-Tipe data Float Point merupakan tipe data number dengan bilangan pecahan
+Tipe data Floating Point merupakan tipe data number dengan bilangan pecahan
 
-Berikut jenis-jenis tipe data Float point
+Berikut jenis-jenis tipe data Floating point
 
 <img src="../images/Tipe-data-floating-point.png">
+
+#### 3. Tipe data DECIMAL
+
+Selain Integer dan floating point, MySQL terdapat tipe data DECIMAL, yaitu khusus yang bisa ditentukan jumlah precision dan scalenya.
+
+<img src="../images/Tipe-data-Decimal.png">
 
 ### Tipe Data String
