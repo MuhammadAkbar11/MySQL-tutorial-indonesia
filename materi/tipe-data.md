@@ -15,7 +15,6 @@ Berikut jenis-jenis tipe data integer
 
 <img src="../images/Tipe-data-number-integer.png">
 
-<hr>
 <br>
 
 #### 2. Tipe data Floatng Point
@@ -26,7 +25,6 @@ Berikut jenis-jenis tipe data Floating point
 
 <img src="../images/Tipe-data-floating-point.png">
 
-<hr>
 <br>
 
 #### 3. Tipe data DECIMAL
@@ -35,7 +33,6 @@ Selain Integer dan floating point, MySQL terdapat tipe data DECIMAL, yaitu khusu
 
 <img src="../images/Tipe-data-Decimal.png">
 
-<hr>
 <br>
 
 #### \* Number Attribut
