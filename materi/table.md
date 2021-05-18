@@ -9,3 +9,21 @@ Untuk melihat Storage Engines apa saja yang terdapat di MYSQL, Bisa menggunakan 
 ```bash
 mysql> SHOW ENGINES;
 ```
+
+<br>
+
+### Membuat Tabel
+
+Perintah membuat sebuah Tabel
+
+```bash
+mysql> CREATE TABLE table_name
+    -> (
+    -> column1 INT,
+    -> column2 VARCHAR(128),
+    -> column3 INT,
+    -> column4 INT
+    -> ) ENGINE = InnoDB;
+```
+
+<br>
