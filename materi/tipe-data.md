@@ -64,3 +64,7 @@ Contohnya CHAR(10) atau VARCHAR(10).
   - TEXT, dengan max 65535 karakter (~64kb)
   - MEDIUMTEXT, dengan max 16777215 karakter (~16MB)
   - LONGTEXT, Dengan max 4294961295 karakter (~4GB)
+
+#### Tipe Data ENUM
+
+Tipe data ENUM adalah tipe data string yang bisa kita tentukan pilihannya, misal ENUM("pria", "wanita")
