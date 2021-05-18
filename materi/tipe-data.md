@@ -11,13 +11,13 @@ Tipe data number terdapat beberapa jenis, yaitu:
 
 Tipe data Integer merupakan tipe data number dengan bilangan bulat.
 
-Berikut jenis-jenis tipe data integer
+Jenis-jenis tipe data Integer
 
 <img src="../images/Tipe-data-number-integer.png">
 
 <br>
 
-#### 2. Tipe data Floatng Point
+#### 2. Tipe data Floating Point
 
 Tipe data Floating Point merupakan tipe data number dengan bilangan pecahan
 
@@ -39,4 +39,28 @@ Selain Integer dan floating point, MySQL terdapat tipe data DECIMAL, yaitu khusu
 
 <img src="../images/Number-Attr.png">
 
+<br><br>
+
 ### Tipe Data String
+
+#### Tipe Data CHAR dan VARCHAR
+
+~ Pertama tipe data string di MySQL dalah CHAR dan VARCHAR
+~ Kita bisa menentukan jumlah panjang karakter dan yang bisa di tampung olhe CHAR dan VARCHAR dengan menggunakan kurung buka lalu masukan jumlah max karakter dan diakhiri dengan kurung tutup.
+Contohnya CHAR(10) atau VARCHAR(10).
+~ Ukuran CHAR dan VARCHAR adalah 65535
+
+<br>
+
+Perbedaan CHAR dan VARCHAR
+
+<img src="../images/perbedaan-CHAR-dan-VARCHAR.png">
+
+#### Tipe data TEXT
+
+- Tidak memiliki batas max panjangnya
+- Terdapat 4 tipe data TEXT
+  - TINYTEXT, dengan max 255 karakter (~256bytes);
+  - TEXT, dengan max 65535 karakter (~64kb);
+  - MEDIUMTEXT, dengan max 16777215 karakter (~16MB);
+  - LONGTEXT, Dengan max 4294961295 karakter (~4GB);
