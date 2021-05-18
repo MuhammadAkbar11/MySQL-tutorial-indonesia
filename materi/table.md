@@ -64,19 +64,13 @@ mysql> ALTER TABLE table_name ADD COLUMN new_coloumn TEXT;
 mysql> ALTER TABLE table_name DROP COLUMN coloum CHAR;
 ```
 
-##### Menghapus kolom
-
-```bash
-mysql> ALTER TABLE table_name ADD COLUMN new_coloumn TEXT;
-```
-
-#### Mengubah nama kolom
+##### Mengubah nama kolom
 
 ```sh
 mysql> ALTER TABLE table_name RENAME COLUMN old_name to new_name
 ```
 
-#### Mengubah tipe kolom
+##### Mengubah tipe kolom
 
 ```sh
 mysql> ALTER TABLE table_name MODIFY coloum2 VARCHAR(128) AFTER column1;
@@ -84,26 +78,38 @@ mysql> ALTER TABLE table_name MODIFY coloum2 VARCHAR(128) AFTER column1;
 mysql> ALTER TABLE table_name MODIFY coloum2 VARCHAR(128) FIRST;
 ```
 
+<br>
+
 #### Null Value
 
 NULL adalah nilai ketika kita mengisi data kedalam kolom. secara default, saat kita membuat kolom, kolom tersebut bisa bernilai NULL.
 
 ```bash
+# ketika membuat tabel baru
 mysql> CREATE TABLE table_name
     -> (
     ...
     -> column VARCHAR(128) NULL,
     ...
     -> ) ENGINE = InnoDB;
+
+# ketika mengubah tabel / menambahkan kolom baru
+mysql> ALTER TABLE table_name ADD COLUMN column_name VARACHAR(200) NULL;
 ```
 
 jika tidak ingin menerima nilai NULL, kita bisa menambahkan NOT NULL ketiaka pembuatan kolomnya.
 
 ```bash
+# ketika membuat tabel baru
 mysql> CREATE TABLE table_name
     -> (
     ...
     -> column VARCHAR(128) NOT NULL,
     ...
     -> ) ENGINE = InnoDB;
+
+# ketika mengubah tabel / menambahkan kolom baru
+mysql> ALTER TABLE table_name ADD COLUMN column_name VARACHAR(200) NOT NULL;
 ```
+
+### Default Value
