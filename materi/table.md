@@ -28,3 +28,58 @@ mysql> CREATE TABLE table_name
 ```
 
 <br>
+
+### Melihat Struktur Tabel
+
+Perintah melihat struktur sebuah tabel
+
+```sh
+mysql> DESCRIBE table_name;
+#or
+mysql> DESC table_name;
+```
+
+Perintah melihat struktur tabel dalam sintaks pembuatan tabelnya
+
+```sh
+mysql> SHOW CREATE TABLE table_name;
+```
+
+<br>
+
+### Mengubah Tabel
+
+#### Perintah-perintah mengubah struktur sebuah tabel
+
+##### Menambahkan kolom baru
+
+```bash
+
+mysql> ALTER TABLE table_name ADD COLUMN new_coloumn TEXT;
+```
+
+##### Menghapus kolom
+
+```bash
+mysql> ALTER TABLE table_name DROP COLUMN coloum CHAR;
+```
+
+##### Menghapus kolom
+
+```bash
+mysql> ALTER TABLE table_name ADD COLUMN new_coloumn TEXT;
+```
+
+#### Mengubah nama kolom
+
+```sh
+mysql> ALTER TABLE table_name RENAME COLUMN old_name to new_name
+```
+
+#### Mengubah tipe kolom
+
+```sh
+mysql> ALTER TABLE table_name MODIFY coloum2 VARCHAR(128) AFTER column1;
+#or
+mysql> ALTER TABLE table_name MODIFY coloum2 VARCHAR(128) FIRST;
+```
