@@ -85,3 +85,9 @@ Berikut jenis-jenis tipe data Date dan Time yaitu:
 <br>
 
 [Kapan menggunakan tipe data TIMESTAMP](https://stackoverflow.com/questions/409286/should-i-use-the-datetime-or-timestamp-data-type-in-mysql)
+
+<br><br>
+
+### Tipe Data Booelan
+
+Booelan adalah tipe data kebenaran, yang artinya datanya hanya ada 2 jenis, yaitu Benar dan Salah. Benar di presentasikan dengan data TRUE/True, sedangkan Salah dipresentasikan dengan data FALSE/False
