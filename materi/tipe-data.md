@@ -52,7 +52,7 @@ Contohnya CHAR(10) atau VARCHAR(10).
 
 <br>
 
-Perbedaan CHAR dan VARCHAR
+#### Perbedaan CHAR dan VARCHAR
 
 <img src="../images/perbedaan-CHAR-dan-VARCHAR.png">
 
@@ -60,7 +60,7 @@ Perbedaan CHAR dan VARCHAR
 
 - Tidak memiliki batas max panjangnya
 - Terdapat 4 tipe data TEXT
-  - TINYTEXT, dengan max 255 karakter (~256bytes);
-  - TEXT, dengan max 65535 karakter (~64kb);
-  - MEDIUMTEXT, dengan max 16777215 karakter (~16MB);
-  - LONGTEXT, Dengan max 4294961295 karakter (~4GB);
+  - TINYTEXT, dengan max 255 karakter (~256bytes)
+  - TEXT, dengan max 65535 karakter (~64kb)
+  - MEDIUMTEXT, dengan max 16777215 karakter (~16MB)
+  - LONGTEXT, Dengan max 4294961295 karakter (~4GB)
