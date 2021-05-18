@@ -91,3 +91,17 @@ Berikut jenis-jenis tipe data Date dan Time yaitu:
 ### Tipe Data Booelan
 
 Booelan adalah tipe data kebenaran, yang artinya datanya hanya ada 2 jenis, yaitu Benar dan Salah. Benar di presentasikan dengan data TRUE/True, sedangkan Salah dipresentasikan dengan data FALSE/False
+
+<br><br>
+
+### Tipe Data Lainnya
+
+Hal ini bisa dipelajari jika memang ada kebutuhan spesifik. Misalnya:
+
+- BLOB
+- SPATIAL
+- JSON
+- SET
+- dan lain-lain
+
+[Selengkapnya](https://dev.mysql.com/doc/refman/8.0/data-types.html)
