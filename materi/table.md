@@ -17,6 +17,7 @@ mysql> SHOW ENGINES;
 Perintah membuat sebuah Tabel
 
 ```bash
+# Tekan Shift+Enter untuk membuat baris baru pada terminal
 mysql> CREATE TABLE table_name
     -> (
     -> column1 INT,
