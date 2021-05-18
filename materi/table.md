@@ -80,7 +80,7 @@ mysql> ALTER TABLE table_name MODIFY coloum2 VARCHAR(128) FIRST;
 
 <br>
 
-#### Null Value
+### Null Value
 
 NULL adalah nilai ketika kita mengisi data kedalam kolom. secara default, saat kita membuat kolom, kolom tersebut bisa bernilai NULL.
 
