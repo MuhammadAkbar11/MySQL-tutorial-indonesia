@@ -52,19 +52,40 @@ Contohnya CHAR(10) atau VARCHAR(10).
 
 <br>
 
-#### Perbedaan CHAR dan VARCHAR
+##### Perbedaan CHAR dan VARCHAR
 
 <img src="../images/perbedaan-CHAR-dan-VARCHAR.png">
+
+<br>
 
 #### Tipe data TEXT
 
 - Tidak memiliki batas max panjangnya
 - Terdapat 4 tipe data TEXT
+
   - TINYTEXT, dengan max 255 karakter (~256bytes)
   - TEXT, dengan max 65535 karakter (~64kb)
   - MEDIUMTEXT, dengan max 16777215 karakter (~16MB)
   - LONGTEXT, Dengan max 4294961295 karakter (~4GB)
 
+<br>
+
 #### Tipe Data ENUM
 
 Tipe data ENUM adalah tipe data string yang bisa kita tentukan pilihannya, misal ENUM("pria", "wanita")
+
+<br><br>
+
+### Tipe Data Date dan Time
+
+Berikut jenis-jenis tipe data Date dan Time yaitu:
+
+<img src="../images/Jenis-tipe-data-date-dan-time.png">
+
+<br>
+
+Untuk kapan menggunakan data tipe TIMESTAMP dapat dilihat di link di bawah ini
+
+<a href="https://stackoverflow.com/questions/409286/should-i-use-the-datetime-or-timestamp-data-type-in-mysql">
+should i use the datetime or timestamp data type in mysql
+</a>
