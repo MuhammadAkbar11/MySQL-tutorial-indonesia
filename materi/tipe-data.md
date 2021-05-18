@@ -84,8 +84,4 @@ Berikut jenis-jenis tipe data Date dan Time yaitu:
 
 <br>
 
-Untuk kapan menggunakan data tipe TIMESTAMP dapat dilihat di link di bawah ini
-
-<a  href="https://stackoverflow.com/questions/409286/should-i-use-the-datetime-or-timestamp-data-type-in-mysql" target="_blank">
-should i use the datetime or timestamp data type in mysql
-</a>
+[Kapan menggunakan tipe data TIMESTAMP](https://stackoverflow.com/questions/409286/should-i-use-the-datetime-or-timestamp-data-type-in-mysql)
