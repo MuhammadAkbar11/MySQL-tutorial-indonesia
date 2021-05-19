@@ -97,7 +97,7 @@ mysql> CREATE TABLE table_name
 mysql> ALTER TABLE table_name ADD COLUMN column_name VARACHAR(200) NULL;
 ```
 
-jika tidak ingin menerima nilai NULL, kita bisa menambahkan NOT NULL ketiaka pembuatan kolomnya.
+jika tidak ingin menerima nilai NULL, kita bisa menambahkan NOT NULL ketika pembuatan kolomnya.
 
 ```bash
 # ketika membuat tabel baru
@@ -113,3 +113,35 @@ mysql> ALTER TABLE table_name ADD COLUMN column_name VARACHAR(200) NOT NULL;
 ```
 
 ### Default Value
+
+saat menyimpan data kedalam tabel, lalu hanya menyimpan beberapa kolom (tidak semuanya), kolom yang tidak kita beri nilai, secara default nilainya adalah NULL.
+
+Jika ingin mengubah default valuenya, bisa menambahkan perintah DEFAULT VALUE ketika pembuatan kolomnya.
+
+```sh
+# Default value saat membuat tabel
+mysql> CREATE TABLE table_name
+    -> (
+    ...
+    -> column VARCHAR(128) NOT NULL DEFAULT "Default value",
+    ...
+    -> ) ENGINE = InnoDB;
+
+# Default value saat menambah kolom baru atau mengubah tabel
+mysql> ALTER TABLE MODIFY colomn_name INT NOT NULL DEFAULT 0;
+```
+
+khusus tipe data DATETIME & TIMESTAMP, jika ingin menggunakan default value dengan nilai waktu saat ini. bisa menggunakan kata kunci CURRENT_TIMESTAMP
+
+```sh
+# Default value saat membuat tabel dengan kata kunci CURRENT_TIMESTAMP
+mysql> CREATE TABLE table_name
+    -> (
+    ...
+    -> column VARCHAR(128) NOT NULL DEFAULT "Default value",
+    ...
+    -> ) ENGINE = InnoDB;
+
+# Default value saat menambah kolom baru atau mengubah tabel dengan kata kunci CURRENT_TIMESTAMP
+mysql> ALTER TABLE MODIFY colomn_name INT NOT NULL DEFAULT 0;
+```
