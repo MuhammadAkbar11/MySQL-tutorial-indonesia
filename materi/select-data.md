@@ -11,8 +11,6 @@
 mysql> SELECT * FROM table_name;
 ```
 
-<br>
-
 ### Mengambil data dari kolom tertentu
 
 ```sh

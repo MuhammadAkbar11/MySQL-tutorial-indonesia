@@ -20,8 +20,6 @@ mysql> CREATE TABLE products (
 mysql> INSERT INTO table_name(id, name, price, quantity) VALUES ("P0001", "colomn name", 20000, 100);
 ```
 
-<br>
-
 ### Memasukan Multiple data
 
 ```sh
@@ -30,3 +28,5 @@ mysql> INSERT INTO table_name(id, name, price, quantity)
     -> ("P0002", "colomn name 2", 17000, 100),
     -> ("P0003", "colomn name 3", 23000, 100);
 ```
+
+[Kembali daftar meteri ](README.md)
