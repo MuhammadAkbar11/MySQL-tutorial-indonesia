@@ -31,4 +31,4 @@ mysql> INSERT INTO table_name(id, name, price, quantity)
 
 <br><br>
 
-[Kembali daftar meteri ](../README.md)
+[Kembali daftar meteri ](./../README.md)
