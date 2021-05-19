@@ -2,6 +2,9 @@
 
 - [Tipe Data Number ](#tipe-data-number)
 - [Tipe Data String ](#tipe-data-string)
+- [Tipe Data Date dan Time ](#tipe-data-date-dan-time)
+- [Tipe Data Booelan ](#tipe-data-booelan)
+- [Tipe Data Date Lainnya ](#tipe-data-lainnya)
 
 ### Tipe Data Number
 
