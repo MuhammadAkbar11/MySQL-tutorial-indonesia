@@ -89,7 +89,7 @@ NULL adalah nilai ketika kita mengisi data kedalam kolom. secara default, saat k
 mysql> CREATE TABLE table_name
     -> (
     ...
-    -> column VARCHAR(128) NULL,
+    -> column_name VARCHAR(128) NULL,
     ...
     -> ) ENGINE = InnoDB;
 
@@ -104,13 +104,15 @@ jika tidak ingin menerima nilai NULL, kita bisa menambahkan NOT NULL ketika pemb
 mysql> CREATE TABLE table_name
     -> (
     ...
-    -> column VARCHAR(128) NOT NULL,
+    -> column_name VARCHAR(128) NOT NULL,
     ...
     -> ) ENGINE = InnoDB;
 
 # ketika mengubah tabel / menambahkan kolom baru
 mysql> ALTER TABLE table_name ADD COLUMN column_name VARACHAR(200) NOT NULL;
 ```
+
+<br><br>
 
 ### Default Value
 
@@ -123,7 +125,7 @@ Jika ingin mengubah default valuenya, bisa menambahkan perintah DEFAULT VALUE ke
 mysql> CREATE TABLE table_name
     -> (
     ...
-    -> column VARCHAR(128) NOT NULL DEFAULT "Default value",
+    -> column_name VARCHAR(128) NOT NULL DEFAULT "Default value",
     ...
     -> ) ENGINE = InnoDB;
 
@@ -138,10 +140,33 @@ khusus tipe data DATETIME & TIMESTAMP, jika ingin menggunakan default value deng
 mysql> CREATE TABLE table_name
     -> (
     ...
-    -> column VARCHAR(128) NOT NULL DEFAULT "Default value",
+    -> column_name VARCHAR(128) NOT NULL DEFAULT "Default value",
     ...
     -> ) ENGINE = InnoDB;
 
 # Default value saat menambah kolom baru atau mengubah tabel dengan kata kunci CURRENT_TIMESTAMP
 mysql> ALTER TABLE MODIFY colomn_name INT NOT NULL DEFAULT 0;
+```
+
+<br><br>
+
+### Membuat Ulang Tabel
+
+Perintah membuat ulang tabel
+
+```sh
+mysql> TRUNCATE table_name;
+
+# TRUNCATE yaitu menghapus semua sisa tebel.
+
+```
+
+<br><br>
+
+### Menghapus Tabel
+
+Perintah menghapus Tabel
+
+```sh
+mysql> DROP TABEL
 ```
