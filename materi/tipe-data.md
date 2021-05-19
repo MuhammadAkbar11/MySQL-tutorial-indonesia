@@ -107,4 +107,8 @@ Hal ini bisa dipelajari jika memang ada kebutuhan spesifik. Misalnya:
 - SET
 - dan lain-lain
 
-[Selengkapnya](https://dev.mysql.com/doc/refman/8.0/data-types.html)
+[Selengkapnya tentang tipe data](https://dev.mysql.com/doc/refman/8.0/data-types.html)
+
+<br><br><br>
+
+[Kembali ke daftar meteri ](./../README.md)

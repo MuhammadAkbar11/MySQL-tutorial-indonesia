@@ -29,6 +29,6 @@ mysql> INSERT INTO table_name(id, name, price, quantity)
     -> ("P0003", "colomn name 3", 23000, 100);
 ```
 
-<br><br>
+<br><br><br>
 
-[Kembali daftar meteri ](./../README.md)
+[Kembali ke daftar meteri ](./../README.md)

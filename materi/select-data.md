@@ -16,3 +16,7 @@ mysql> SELECT * FROM table_name;
 ```sh
 mysql> SELECT column_1, column_2, column_3 FROM table_name;
 ```
+
+<br><br><br>
+
+[Kembali ke daftar meteri ](./../README.md)

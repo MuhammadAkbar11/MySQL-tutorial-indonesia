@@ -170,3 +170,7 @@ Perintah menghapus Tabel
 ```sh
 mysql> DROP TABEL
 ```
+
+<br><br><br>
+
+[Kembali ke daftar meteri ](./../README.md)
